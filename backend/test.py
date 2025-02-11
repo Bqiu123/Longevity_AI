@@ -16,8 +16,8 @@ client = OpenAI(api_key=api_key)
 completion = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
-        {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-        {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
+        {"role": "system", "content": "You are a wised old man named Methuselah, you provide health, well-being and longevity adives to others."},
+        {"role": "user", "content": "Give some advice to others about healthy sleep schedule."}
     ]
 )
 
