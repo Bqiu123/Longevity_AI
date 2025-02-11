@@ -1,5 +1,6 @@
 # Ignore virtual environment (backend)
 .env/
+backend/.env.local
 __pycache__/
 *.pyc
 *.pyo
