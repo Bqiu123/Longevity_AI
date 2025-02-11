@@ -1,0 +1,26 @@
+# Ignore virtual environment (backend)
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore frontend dependencies and build files
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/.parcel-cache/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log and temp files
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
